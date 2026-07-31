@@ -16,9 +16,9 @@ jobs:
       - name: Add MSBuild to PATH
         uses: microsoft/setup-msbuild@v2
 
-      # 2. Configurer CMake
+      # 2. Configurer CMake (Corrigé en v2)
       - name: Setup CMake
-        uses: jwlawson/actions-setup-cmake@v4
+        uses: jwlawson/actions-setup-cmake@v2
         with:
           cmake-version: 'latest'
 
